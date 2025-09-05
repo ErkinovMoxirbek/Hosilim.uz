@@ -5,6 +5,7 @@
 
 <p align="center">
   API: <a href="https://api.hosilim.uz/swagger-ui/index.html#">api.hosilim.uz</a>
+  WEB: <a href="https://hosilim.uz/">api.hosilim.uz</a>
 </p>
 
 ---
