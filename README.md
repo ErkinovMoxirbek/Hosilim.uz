@@ -1,170 +1,82 @@
-<!DOCTYPE html>
-<html lang="uz">
-<head>
-    <meta charset="UTF-8">
-    <title>Hosilim.uz - README</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 20px;
-            background: #f9f9f9;
-            color: #333;
-        }
-        h1, h2, h3 {
-            color: #2e7d32;
-        }
-        h1 {
-            text-align: center;
-        }
-        a {
-            color: #1e88e5;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-        .section {
-            background: #fff;
-            padding: 20px;
-            margin-bottom: 20px;
-            border-radius: 12px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-        }
-        .image-placeholder {
-            text-align: center;
-            margin: 15px 0;
-        }
-        .image-placeholder img {
-            max-width: 100%;
-            border-radius: 8px;
-        }
-        blockquote {
-            background: #e8f5e9;
-            border-left: 5px solid #2e7d32;
-            padding: 10px 20px;
-            margin: 15px 0;
-            border-radius: 5px;
-        }
-    </style>
-</head>
-<body>
+<h1 align="center">🌱 Hosilim.uz - Digital Fruit Platform 🌱</h1>
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=3000&pause=1000&color=10B981&center=true&vCenter=true&width=600&lines=Connecting+Farmers+%26+Buyers;Transparent+Market+System;Fruits+from+Fergana+Valley;Grow+With+Us+🚀" />
+</p>
 
-    <h1>🌱 Hosilim.uz</h1>
-    <p>👉 API: <a href="https://api.hosilim.uz/swagger-ui/index.html#" target="_blank">api.hosilim.uz</a></p>
+<p align="center">
+  API: <a href="https://api.hosilim.uz/swagger-ui/index.html#">api.hosilim.uz</a>
+</p>
 
-    <div class="section">
-        <h2>🇺🇿 O‘zbek tilida</h2>
+---
 
-        <h3>Loyihaga kirish</h3>
-        <p><strong>Hosilim.uz</strong> — bu Farg‘ona vodiysidan boshlab, dehqonlar va xaridorlarni bog‘lovchi raqamli platforma. 
-        Loyiha dastlab <strong>100–120 nafar dehqon</strong> bilan ishlashni ko‘zda tutadi, ammo kelajakda butun respublika bo‘ylab kengaytiriladi.</p>
-        <blockquote class="image-placeholder">
-            <p>🖼 Screenshot / Diagramma</p>
-            <img src="./assets/screenshot.png" alt="Platforma screenshot">
-        </blockquote>
+### 🇺🇿 O‘zbek tilida
 
-        <h3>🎯 Maqsadlar</h3>
-        <ul>
-            <li>Dehqonlar uchun hosilni yig‘ish, saralash va sotish jarayonini raqamlashtirish.</li>
-            <li>Narx va sifat bo‘yicha <strong>shaffof tizim</strong> yaratish.</li>
-            <li>Mahalliy bozorlardan tashqari <strong>eksport imkoniyatlari</strong>ni kengaytirish.</li>
-        </ul>
-        <blockquote class="image-placeholder">
-            <p>🖼 Diagramma</p>
-            <img src="./assets/objectives.png" alt="Objectives Diagram">
-        </blockquote>
+**Hosilim.uz** — bu Farg‘ona vodiysidan boshlab, dehqonlar va xaridorlarni bog‘lovchi raqamli platforma.  
+Pilot bosqich: **100–120 nafar dehqon**, keyinchalik butun respublika bo‘ylab kengaytirish rejalashtirilgan.
 
-        <h3>👨‍🌾 Kimlar uchun?</h3>
-        <ul>
-            <li><strong>Dehqonlar</strong> — hosilni topshiradi va o‘z hisobini kuzatadi.</li>
-            <li><strong>Punktchilar</strong> — mevalarni qabul qiladi va sifat bo‘yicha saralaydi.</li>
-            <li><strong>Buxgalterlar (Admin)</strong> — to‘lovlarni va hisobotlarni boshqaradi.</li>
-            <li><strong>Omborlar</strong> — mevalarni saqlaydi va bozorga yoki eksportga chiqaradi.</li>
-        </ul>
-        <blockquote class="image-placeholder">
-            <p>🖼 User Flow Diagram</p>
-            <img src="./assets/user-flow.png" alt="User Flow Diagram">
-        </blockquote>
+<p align="center">
+  <img src="./assets/screenshot.png" alt="Platform screenshot" width="60%"/>
+</p>
 
-        <h3>📊 Imkoniyatlar</h3>
-        <ul>
-            <li>Hosilni ro‘yxatdan o‘tkazish (meva turi, kg, sifat).</li>
-            <li>To‘lovlar va hisobotlarni kuzatish (SMS, ilova yoki veb orqali).</li>
-            <li>Narxlarni avtomatik ravishda bozor sharoitiga moslashtirish.</li>
-            <li>Foydalanuvchilarga qulay va tezkor mobil ilova.</li>
-        </ul>
-        <blockquote class="image-placeholder">
-            <p>🖼 Feature Diagram</p>
-            <img src="./assets/features.png" alt="Feature Diagram">
-        </blockquote>
+**🎯 Maqsadlar**
+- Hosilni yig‘ish, saralash va sotish jarayonini raqamlashtirish
+- Narx va sifat bo‘yicha **shaffof tizim**
+- Mahalliy va eksport imkoniyatlarini kengaytirish
 
-        <h3>📍 Hudud</h3>
-        <p>Boshlanishi: <strong>Farg‘ona viloyati</strong> (Qo‘qon, Marg‘ilon, Farg‘ona shahri).</p>
-        <p>Keyinchalik: boshqa hududlarga kengaytirish.</p>
+**👨‍🌾 Kimlar uchun?**
+- **Dehqonlar** — hosilni topshiradi va hisobni kuzatadi  
+- **Punktchilar** — mevalarni qabul qiladi va saralaydi  
+- **Buxgalterlar (Admin)** — to‘lov va hisobotlarni boshqaradi  
+- **Omborlar** — mevalarni saqlaydi va bozorga/eksportga chiqaradi
 
-        <h3>🍎 Mevalar</h3>
-        <p>Olma, o‘rik, shaftoli, uzum, anor va boshqa mevalar.</p>
-    </div>
+**📊 Imkoniyatlar**
+- Hosilni ro‘yxatdan o‘tkazish (meva turi, kg, sifat)  
+- To‘lovlar va hisobotlarni kuzatish (SMS, ilova yoki veb orqali)  
+- Narxlarni avtomatik bozor sharoitiga moslashtirish  
+- Foydalanuvchilar uchun tezkor mobil ilova
 
-    <div class="section">
-        <h2>🇬🇧 In English</h2>
+**📍 Hudud**
+- Boshlanishi: Farg‘ona viloyati (Qo‘qon, Marg‘ilon, Farg‘ona shahri)  
+- Keyinchalik: boshqa hududlarga kengaytirish
 
-        <h3>Project Overview</h3>
-        <p><strong>Hosilim.uz</strong> is a digital platform designed to connect farmers and buyers, starting from the Fergana Valley. 
-        The pilot stage includes <strong>100–120 farmers</strong>, with plans to scale across the entire country.</p>
-        <blockquote class="image-placeholder">
-            <p>🖼 Screenshot / Diagram</p>
-            <img src="./assets/screenshot.png" alt="Platform screenshot">
-        </blockquote>
+**🍎 Mevalar**
+Olma, o‘rik, shaftoli, uzum, anor va boshqa mevalar
 
-        <h3>🎯 Objectives</h3>
-        <ul>
-            <li>Digitalize the process of harvesting, sorting, and selling fruits.</li>
-            <li>Build a <strong>transparent system</strong> for pricing and quality.</li>
-            <li>Expand sales opportunities to <strong>export markets</strong>.</li>
-        </ul>
-        <blockquote class="image-placeholder">
-            <p>🖼 Diagram</p>
-            <img src="./assets/objectives.png" alt="Objectives Diagram">
-        </blockquote>
+---
 
-        <h3>👨‍🌾 Target Users</h3>
-        <ul>
-            <li><strong>Farmers</strong> — deliver harvest and track their earnings.</li>
-            <li><strong>Collection points</strong> — receive and sort fruits by quality.</li>
-            <li><strong>Accountants (Admins)</strong> — manage payments and generate reports.</li>
-            <li><strong>Warehouses</strong> — store and prepare fruits for the market or export.</li>
-        </ul>
-        <blockquote class="image-placeholder">
-            <p>🖼 User Flow Diagram</p>
-            <img src="./assets/user-flow.png" alt="User Flow Diagram">
-        </blockquote>
+### 🇬🇧 In English
 
-        <h3>📊 Features</h3>
-        <ul>
-            <li>Register harvested fruits (type, weight, quality).</li>
-            <li>Track payments and reports (via SMS, mobile app, or web).</li>
-            <li>Dynamic pricing adjusted to market conditions.</li>
-            <li>User-friendly and fast mobile application.</li>
-        </ul>
-        <blockquote class="image-placeholder">
-            <p>🖼 Feature Diagram</p>
-            <img src="./assets/features.png" alt="Feature Diagram">
-        </blockquote>
+**Hosilim.uz** is a digital platform connecting farmers and buyers from the Fergana Valley.  
+Pilot stage: **100–120 farmers**, with plans to expand nationwide.
 
-        <h3>📍 Location</h3>
-        <p>Initial launch: <strong>Fergana region</strong> (Kokand, Margilan, Fergana city).</p>
-        <p>Future: nationwide expansion.</p>
+<p align="center">
+  <img src="./assets/screenshot.png" alt="Platform screenshot" width="60%"/>
+</p>
 
-        <h3>🍎 Fruits</h3>
-        <p>Apples, apricots, peaches, grapes, pomegranates, and more.</p>
-    </div>
+**🎯 Objectives**
+- Digitalize harvesting, sorting, and selling fruits  
+- Transparent pricing and quality system  
+- Expand local and export market opportunities
 
-    <p style="text-align:center;">📌 <em>Hosilim.uz — dehqonlar uchun ishonchli bozor, xaridorlar uchun sifatli mahsulot.</em></p>
+**👨‍🌾 Target Users**
+- **Farmers** — deliver harvest and track earnings  
+- **Collection points** — receive and sort fruits  
+- **Admins** — manage payments and reports  
+- **Warehouses** — store fruits and prepare for market/export
 
-</body>
-</html>
+**📊 Features**
+- Register harvested fruits (type, weight, quality)  
+- Track payments and reports (SMS, mobile app, web)  
+- Dynamic pricing according to market conditions  
+- Fast, user-friendly mobile application
 
+**📍 Location**
+- Initial launch: Fergana region (Kokand, Margilan, Fergana city)  
+- Future: nationwide expansion
+
+**🍎 Fruits**
+Apples, apricots, peaches, grapes, pomegranates, and more
+
+---
+
+<p align="center">📌 <em>Hosilim.uz — dehqonlar uchun ishonchli bozor, xaridorlar uchun sifatli mahsulot.</em></p>
